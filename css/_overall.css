@@ -1,0 +1,18 @@
+.container {
+max-width: 1656px;
+	padding: 0 30px;
+	margin: 0 auto;
+}
+
+.site-container {
+	overflow: hidden;
+}
+.flex {
+	display: flex;
+}
+
+.btn-recent {
+	border: none;
+	background-color: transparent;
+	 cursor: pointer;
+}

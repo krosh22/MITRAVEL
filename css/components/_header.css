@@ -1,0 +1,65 @@
+.header {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+/*background-color: rgba(0,0,0,0.7);*/
+}
+.header-container {
+	justify-content: space-between;
+	padding-top: 55px;
+	align-items: center;
+	padding-bottom: 50px;
+}
+.social {
+	display: flex;
+	align-items: center;
+}
+.social-item:not(:last-child) {
+	margin-right: 40px;
+}
+.social-link {
+	display: block;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.social-link--fb {
+	background-image: url("../../img/Path.svg");
+	width: 11px;
+	height: 20px;
+}
+.social-link--tw {
+	background-image: url("../../img/twitter.svg");
+	width: 20px;
+	height: 17px;
+}
+.header-logo {
+	font-weight: 800;
+	font-size: 22px;
+	line-height: 26px;
+	text-align: center;
+	letter-spacing: 2px;
+	color: var(--white-color);
+	text-transform: uppercase;
+}
+.burger {
+	width: 48px;
+	height: 10px;
+	position: relative;
+}
+.burger_line {
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	background-color: var(--white-color);
+	display: block;
+	right: 0;
+	top: 0;
+}
+.burger_line:last-child {
+	top: auto;
+	bottom: 0;
+}
+
