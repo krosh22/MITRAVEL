@@ -428,7 +428,7 @@ img {
 .first {
 	height: 100vh;
 	min-height: 600px;
-	background-image: url("../../img/Background.jpg");
+	background-image: url("../img/Background.jpg");
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -503,7 +503,7 @@ img {
 .search-from_button {
 	width: 18px;
 	height: 18px;
-	background-image: url("../../img/search.png" );
+	background-image: url("../img/search.png" );
 	background-position: right;
 	background-size: cover;
 	background-repeat: no-repeat;
